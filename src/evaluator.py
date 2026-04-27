@@ -8,8 +8,8 @@ from collections import defaultdict
 import numpy as np
 from jiwer import wer, cer
 
-from recognizers import RecognitionResult, WordTimestamp
-from config import MAX_CER_THRESHOLD, MAX_WER_THRESHOLD, MAX_TIMESTAMP_ERROR_MS
+from src.recognizers import RecognitionResult, WordTimestamp
+from src.config import MAX_CER_THRESHOLD, MAX_WER_THRESHOLD, MAX_TIMESTAMP_ERROR_MS
 
 
 @dataclass

@@ -9,9 +9,9 @@ from fastapi import FastAPI, HTTPException, BackgroundTasks
 from pydantic import BaseModel, Field
 import uvicorn
 
-from config import SUPPORTED_LANGUAGES
-from audio_processor import download_from_s3_url
-from recognizers import get_recognizer, RecognitionResult
+from src.config import SUPPORTED_LANGUAGES
+from src.audio_processor import download_from_s3_url
+from src.recognizers import get_recognizer, RecognitionResult
 
 
 app = FastAPI(

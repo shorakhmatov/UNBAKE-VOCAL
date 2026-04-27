@@ -9,7 +9,7 @@ import soundfile as sf
 from pydub import AudioSegment
 import requests
 
-from config import AUDIO_SAMPLE_RATE, SUPPORTED_FORMATS
+from src.config import AUDIO_SAMPLE_RATE, SUPPORTED_FORMATS
 
 
 class AudioProcessor:

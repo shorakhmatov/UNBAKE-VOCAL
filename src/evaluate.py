@@ -10,9 +10,9 @@ import argparse
 from pathlib import Path
 from typing import Dict
 
-from config import TEST_DATA_DIR, RESULTS_DIR
-from recognizers import get_recognizer
-from evaluator import RecognitionEvaluator, BatchEvaluator
+from src.config import TEST_DATA_DIR, RESULTS_DIR
+from src.recognizers import get_recognizer
+from src.evaluator import RecognitionEvaluator, BatchEvaluator
 
 
 # Ground truth - add your test files here

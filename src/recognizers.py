@@ -7,7 +7,7 @@ from typing import List, Optional, Dict, Any
 
 import torch
 
-from config import DEFAULT_WHISPER_MODEL, SUPPORTED_LANGUAGES
+from src.config import DEFAULT_WHISPER_MODEL, SUPPORTED_LANGUAGES
 
 
 @dataclass
