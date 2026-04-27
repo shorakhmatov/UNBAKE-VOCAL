@@ -244,15 +244,5 @@ results/
 - Языковые смешения: auto-detection + force language parameter
 - Длинные треки: chunk processing с оверлапом
 
-## Контакты
 
-**Тестовое задание для:** Unbake (AI-powered music education & production)
-
-**Позиция:** Team Lead / ML Engineer
-
----
-
-## Лицензия
-
-Это тестовое задание, созданное в образовательных целях.
 
