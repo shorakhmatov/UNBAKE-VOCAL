@@ -1,0 +1,15 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+faster-whisper>=1.0.0
+whisper-timestamped>=1.14.0
+numpy>=1.24.0
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+requests>=2.31.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+jiwer>=3.0.0
+levenshtein>=0.23.0
